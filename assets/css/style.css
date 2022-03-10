@@ -1,0 +1,374 @@
+/* Style  File */
+
+body {
+    /*ackground: url('../img/layout/bg.jpg') #fff no-repeat fixed top center;
+    background-size: 140%;*/
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 60px; 
+}
+
+#pageload img {
+     vertical-align: middle;
+     margin : 15% auto
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight:300;
+    font-family: 'Josefin Slab', serif;
+    }
+
+h1 {
+    font-weight:300;
+    font-size:47px;
+    line-height:55px;
+    }
+p {
+    font-size: 15px;
+}
+.lead {
+    font-size: 19px;
+}
+
+.navbar-default {
+    background: transparent;
+    border: transparent;
+    opacity : 0 /* for full page loading before show anything */
+}
+#custom-nav{
+    background: transparent;
+    color: #fff;
+}
+#custom-nav .navbar-nav {
+    margin: 4px -15px;
+}
+#custom-nav .navbar-brand{
+    padding : 0 0 0 15px;
+    height : auto;
+}
+.navbar-brand img {
+        max-width: 200px;
+    }
+.nav > li:hover {
+        border-bottom: 1px solid #ccc;
+    }
+.navbar-default .navbar-nav > li > a:hover{
+        color : #fff;
+    }
+
+.container-fluid {
+    opacity : 0; /* for full page loading before show anything */
+}
+
+.black-shade {
+    background: rgb(0,0,0); /* Fallback for old browser */
+    background: rgba(0,0,0,0.3);
+    float: right;
+    height : 700px;
+}
+
+#lead {
+    color: #fff;
+    text-align:center;
+}
+#lead h1 {
+    padding-bottom: 20px;
+}
+#lead .bottom-spacing {
+    padding-bottom: 4%;
+}
+
+#service {
+    background: #fff;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom:11%;
+    margin:0 auto;
+}
+
+#service img {    
+    margin : 15% auto 0;
+}
+#service h1 {
+    padding-bottom:7px;
+    text-align: center;
+}
+#service h3 {
+    font-size:  27px;
+}
+    
+#portfolio {
+    background: #fed57b;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin: -8% auto 0;
+}
+#portfolio .thumbnail {
+    background: #fed57b;
+    border: 0;
+}
+#portfolio h1 {
+    padding-bottom:45px;
+    text-align: center;
+}
+#portfolio img {
+    height: 140px;
+}
+
+#latest-project {
+    background : rgb(246, 246, 246); /* Fallback for old browser */
+    background: rgba(246, 246, 246, 0.9);
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin: 0 auto 0;
+    text-align: center;
+    color : #000;
+}
+#latest-project h1{
+    padding-bottom:45px;
+    text-align: center;
+
+}
+#latest-project h3 {
+    font-size:  27px;
+}
+#latest-project img {
+    height: 225px;
+    margin: 3% auto;
+}
+#latest-project .modal-body img {
+    height: 300px;
+}
+#latest-project a {
+    cursor: pointer;
+}
+
+#client {
+    background: #fff;
+    color: #5e5e5e;
+    padding-top: 24px;
+    padding-bottom: 50px;
+    margin: auto;  
+    text-align: center;
+}
+#client h1 {
+    padding-bottom:45px;
+    text-align: center;
+    color: #000;
+}
+#client img {
+    margin: auto;
+    width : 148px;
+    height : 148px;
+    border-radius: 100%;
+}
+#client .client-img {
+    margin: auto;
+    width : 120px;
+    height : 80px;
+    border-radius: 1%;    
+}
+#client .carousel-indicators {
+    bottom: 0;
+    position : relative;
+}
+#client .carousel-indicators .active {
+    background: rgb(0,0,0); /* Fallback for old browser */
+    background: rgba(0,0,0,1);
+}
+#client .carousel-indicators li {
+    border: 1px solid #000;
+}
+#client .blockquote-reverse {
+    text-align: center;
+}
+
+#contact {
+    background: rgb(0,0,0); /* Fallback for old browser */
+    background: rgba(0,0,0,0.8);
+    padding-top: 24px;
+    padding-bottom: 50px;
+    margin: auto;  
+    color : #fff;
+}
+#contact h1 {
+    padding-bottom:45px;
+    text-align: center;
+    color: #fff;
+}
+#contact p,#contact strong {
+    font-size: 15px; 
+}
+
+#footer {
+    background: #444;
+    padding: 10px;
+    color : #fff;
+}
+#footer h2 {
+    padding-bottom: 3%;
+}
+#footer p, a {
+    font-size: 15px;
+    color : #fff;
+}
+#footer img {
+    width: 65px;
+    height: 60px;
+}
+#footer .dl-horizontal dt {
+    width : 70px;
+}
+#footer .dl-horizontal dd {
+    margin-left: 100px;
+}
+#footer li {
+    padding-bottom: 5px;
+}
+#footer a {
+    cursor: pointer;
+}
+
+#copyright {
+    background: #000;
+    color : #fff;
+    padding: 10px;
+}
+#copyright p {
+    padding-top: 3%;
+}
+#copyright .logo img {
+    max-width : 220px;
+}
+#copyright .pull-side {
+    float: right;
+}
+
+/* Modal Design */
+.modal-title {
+    font-size: 30px;
+}
+#service .modal img {
+    width : auto;
+    margin : auto;
+}
+
+/*button style */
+
+.btn-xl {
+  padding: 14px 22px;
+  font-size: 20px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+/* responsive site design */
+
+/* mobile and smartphone */
+@media (max-width: 480px) {
+    body {
+        background-size: 420%;
+    }
+    #pageload {
+        margin : 65% auto;
+	}
+    .black-shade {
+        background: rgb(0,0,0); /* Fallback for old browser */
+        background: rgba(0,0,0,0.7);
+    }
+    .lead {
+        font-size: 16px;
+	}
+    .nav > li:hover {
+        background: #3c763d;
+    }
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 100%;
+    }
+    #custom-nav {
+        background-color: #fff;
+        border-bottom : 1px inset #000;
+        border-top : 3px solid #F0AD4E;
+    }
+    #portfolio img {
+        height : 90px;
+    }
+    #latest-project img {
+        height: 140px;
+    }
+    #latest-project .modal-body img {
+        height: 140px;
+    }
+    #footer .dl-horizontal dd {
+        margin-left: 0;
+    }
+    #copyright .pull-side {
+        float: left;
+    }
+    .btn-xl {
+    	padding: 14px 10px;
+   }
+}
+
+@media (min-width: 481px) and (max-width : 767px) {
+    body {
+        background-size: 330%;
+    }
+    #pageload {
+    	margin : 40% auto;
+	}
+    .lead {
+        font-size: 17px;
+	}
+    .nav > li:hover {
+        background: #3c763d;
+    }
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 100%;
+    }
+    #custom-nav {
+        background-color: #fff;
+        border-bottom : 1px inset #000;
+        border-top : 3px solid #F0AD4E;
+    }
+    .black-shade {
+        background: rgb(0,0,0); /* Fallback for old browser */
+        background: rgba(0,0,0,0.5);
+    }
+    .lead {
+        font-size: 19px;
+    }
+    #latest-project .modal-body img {
+    height: 240px;
+    }
+    #footer .dl-horizontal dd {
+        margin-left: 0;
+    }
+    #copyright .pull-side {
+       float: left;
+       }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body {
+        background-size: 195%;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    body {
+        background-size: 175%;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    body {
+        background-size: 115%;
+    }
+}
+@media (min-width: 1500px) { 
+    body {
+        background-size: 100%;
+    }
+}
